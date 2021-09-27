@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte con Amor</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/x-icon" href="Arte con Amor Logo .png">
+</head>
+<body>
+    <header class="header">
+    <h1 class="hea-title"></h1>
+
+        <nav class="nav">
+            <h1 class="logo nav-link">Arte con amor.com</h1>
+            <img class="nav-icon" src="Arte con Amor Logo .png"> 
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Artículos</a></li>
+                <li class="nav-menu-item"><a href="Quiénes somos.html" class="nav-menu-link nav-link">¿Quiénes somos?</a></li>
+                <li class="nav-menu-item"><a href="Misión.html" class="nav-menu-link nav-link">Misión</a></li>
+                <li class="nav-menu-item"><a href="Visión.html" class="nav-menu-link nav-link">Visión</a></li>
+        </ul>
+        </nav>
+
+    </header>
+    <br>
+    <br><br>
+    <main>
+    <fieldset class="div-prin">
+    <br>
+    <br>
+    <h4>
+        Las convocatorias están abiertas, si le interesa por favor llene el formulario a continuación.
+    </h4>
+    <br>
+    <br>
+    <form name="Inputs" autocomplete="on" id="recom">
+        <fieldset>
+            <br>
+            <h3>Datos personales</h3>
+            <br>
+            <label for="Nombre">Primer nombre</label>
+            <input type="text" id="Nombre">
+            <label for="nombre">Segundo nombre</label>
+            <input type="text" id="nombre">
+            <br><br>
+            <label for="Apellido">Primer apellido</label>
+            <input type="text" id="Apellido">
+            <label for="apellido">Segundo apellido</label>
+            <input type="text" id="apellido">
+            <br><br>
+            <label for="Teléfono">Número de Teléfono<br></label>
+            <input type="tel" id="Teléfono"><br><br>
+            <label for="correo">Correo electrónico<br></label>
+            <input type="email" id="correo"><br><br>
+            <label for="sexo">Sexo</label><br><br>
+            <input type="radio" id="sexo" name="opciones" >Mujer
+            <input type="radio" id="sexo" name="opciones" >Hombre<br><br>
+            <label for="ciudad">Ciudad en la que reside<br></label>
+            <input type="text" id="ciudad"><br><br>
+            <button type="submit" onclick="alert('Enviado exitosamente')">Enviar</button>
+        </fieldset>
+
+     </form>  
+        <br>
+    </fieldset>
+    <br>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p class="copy" >&copy; 2021 Arte con Amor. Todos los derechos reservados</p>
+        </div>
+    </footer>
+    
+    </body>
+    </html>

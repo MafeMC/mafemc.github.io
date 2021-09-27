@@ -1,0 +1,250 @@
+*{margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+    padding: 90px 20px 10px;
+}
+.header{
+    background-color: rgb(127, 255, 212);
+    height: 80px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-icon{
+    width: 100%;
+    max-width: 60px;
+    max-height: 60px;
+    margin-top: 1%;
+}
+.nav-link{
+    color:black;
+    text-decoration: none;
+}
+
+.logo{
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+.nav-menu-link:hover{
+    background-color:rgb(67, 228, 174);
+    transition: 0.5s;
+
+}
+.sec-link{
+    color:black;
+    text-decoration: none;
+}
+.art{
+    margin: 0%;
+    border-color: transparent;
+    border-top-color: teal;
+}
+.tit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2%;
+    text-align: center;
+}
+fieldset{
+    margin: 5%;
+    border-color: cadetblue;
+    flex-wrap: wrap;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contiene{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contiene img{
+
+    width: 100%;
+    max-width: 280px;
+    max-height: 280px;
+}
+
+#blog article{
+    margin: 20px;
+    width: 20%;
+}
+.vaca{
+    width: 100%;
+    max-width: 280px;
+    max-height: 150px;
+}
+.bordado{
+    width: 100%;
+    max-width: 280px;
+    max-height: 280px;
+}
+#blog h3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+.sec-link{
+    display:flex;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: black;
+}
+.copy{
+    text-align: left;
+    font: menu;
+    font-size:10px;
+    margin: 0%;
+}
+
+button{
+    background-color:lightgray;
+}
+button:hover{
+    background-color:turquoise;
+    border-color: tomato;
+    color:black;
+}
+
+.back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 50px;
+    width: 15%;
+}
+.titulo{
+    margin-left: 25%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cont-button{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+}
+.descrip{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    margin: 7%; 
+    padding: 3%; 
+    background-color: antiquewhite;
+}
+.descrip-img{
+    max-width: 30%;
+    border-style: none;
+}
+.descripción-imagen{
+    background-color: black;
+    max-width: 280px;
+    max-height: 280px;
+    padding: 1%;
+}
+aside{
+    border-left-style: double;
+    padding: 1%;
+    width: 41%;
+    min-height: 10%;
+    max-height: 50%;
+}
+aside h3{
+    font-family:monospace;
+}
+aside h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+aside h1{
+    font-family:initial
+}
+aside p{
+    color: rgb(92, 87, 87);
+    margin-top: 2px;
+}
+aside ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+    border-style: groove;
+    text-align: center;
+}
+table col{
+    background-color: rgba(95, 158, 160, 0.712);
+}
+tfoot{
+    font: menu;
+    font-style: italic;
+}
+
+.div-prin{
+    background-color: rgba(255, 235, 205, 0.435);
+    border-color: transparent;
+}
+
+.div-prin h4{
+    max-width: 80%;
+    line-height: 20px;
+    padding: 15px;
+    margin: 1%;
+    margin-left: 5%;
+    background-color:wheat;
+    font-style: italic;
+} 
+.div-prin img{
+    margin-left: 5%;
+    color: tomato;
+    width: 200px;
+    height: 100px;
+} 
+.div-prin div{
+    display: flex;
+    flex-direction: row;
+}
+.div-prin p{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 2%;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+}
+input:hover{
+    background-color: aqua;
+    font:bolder;
+    color: darkcyan;
+}
